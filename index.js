@@ -2,7 +2,7 @@
 
 module.exports = function getYear(range, sortBy){
   var currentYear = new Date().getFullYear()
-  var getYear = []
+  var getYear = [currentYear]
 
   for (var i = 1; i <= range; i++) {
     getYear.push(currentYear - i);
